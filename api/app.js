@@ -1,4 +1,6 @@
-
+// 引入依赖
+const chromium = require("@sparticuz/chromium-min");
+const puppeteer = require("puppeteer-core");
 
 export default async function handler(req, res) {
     GET()
@@ -12,9 +14,7 @@ export default async function handler(req, res) {
         // 运行环境
         const isDev = process.env.NODE_ENV === "development";
         try {
-            // 引入依赖
-            const chromium = require("@sparticuz/chromium-min");
-            const puppeteer = require("puppeteer-core");
+
 
             // 启动
             browser = await puppeteer.launch({
