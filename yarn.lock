@@ -103,6 +103,14 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sparticuz/chromium-min@^123.0.1":
+  version "123.0.1"
+  resolved "https://registry.yarnpkg.com/@sparticuz/chromium-min/-/chromium-min-123.0.1.tgz#2312aac279b49cd86fd531560c6aa615781c1212"
+  integrity sha512-xB0lGecfZQf1rQZi+x0vA97zrrDBH5opgrZIxzI+ITrwXKeJtBOrXMv5L2dEpHDq9bMBXXhdGap0P7iCDSUvPg==
+  dependencies:
+    follow-redirects "^1.15.6"
+    tar-fs "^3.0.5"
+
 "@sparticuz/chromium@^123.0.1":
   version "123.0.1"
   resolved "https://registry.yarnpkg.com/@sparticuz/chromium/-/chromium-123.0.1.tgz#eb016d419b82c40aca59d02464560bab53694641"
