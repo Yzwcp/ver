@@ -1,6 +1,7 @@
 
 
 export default async function handler(req, res) {
+    GET()
     async function GET() {
         let browser = null;
 
